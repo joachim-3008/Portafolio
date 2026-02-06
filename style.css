@@ -1,0 +1,139 @@
+body {
+  background: #1d1f23;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 10px;
+}
+.contenedor-titulo {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.contenedor-titulo {
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+.columna h1 {
+  margin: 0;
+}
+.columna,
+.columna1 {
+  margin-top: 20px;
+  flex: 1;
+}
+.contenedor-titulo h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #64c6ff;
+  font-size: 30px;
+}
+.contenedor-titulo h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.contenedor-titulo h3 {
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 90px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.nav-bar,
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 80px;
+}
+.contenedor-links .linkedin {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  box-shadow:
+    0 0 10px rgba(0, 209, 178, 0.5),
+    inset 0 0 5px rgba(0, 209, 178, 0.2);
+}
+.contenedor-links .linkedin:hover {
+  background: rgba(0, 209, 178, 0.5);
+  border-radius: 50px;
+}
+.contenedor-links .links {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.contenedor-links .git {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+  box-shadow:
+    0 0 10px rgba(0, 170, 255, 0.4),
+    0 0 20px rgba(0, 170, 255, 0.2);
+}
+.contenedor-links .git:hover {
+  background: rgba(0, 170, 255, 0.4);
+  border-radius: 50px;
+}
+.columna1 {
+  color: white;
+  padding: 10px;
+  box-shadow:
+    0 0 10px rgba(0, 209, 178, 0.5),
+    inset 0 0 5px rgba(0, 209, 178, 0.2);
+}
+.columna1 h2,
+span {
+  color: rgba(0, 209, 178, 0.5);
+}
+.contenedor-img img {
+  width: 130px;
+}
+.contenedor-img {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0;
+  }
+  .nav-bar {
+    justify-content: center;
+  }
+  .contenedor-titulo {
+    padding-top: 15px;
+    font-size: 12px;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contenedor-titulo h3 {
+    margin-bottom: 10px;
+  }
+  .contenedor-links .links {
+    justify-content: center;
+  }
+}
