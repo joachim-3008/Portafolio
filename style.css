@@ -115,8 +115,56 @@ span {
   justify-content: center;
   gap: 30px;
 }
+.texto h1 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: white;
+}
+.proyectos img {
+  width: 100%;
+}
+.proyectos {
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow:
+    0 0 10px rgba(0, 170, 255, 0.4),
+    0 0 20px rgba(0, 170, 255, 0.2);
+}
+.proyectos {
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+}
+.proyectos-destacados {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  /* justify-content: center; */
+}
+summary {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+p {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: white;
+}
+a{
+  color: #64c6ff;
+}
 
 @media (max-width: 480px) {
+  .proyectos-destacados{
+    flex-direction: column;
+  }
   body {
     padding: 0;
   }
