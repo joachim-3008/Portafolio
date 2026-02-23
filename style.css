@@ -142,6 +142,7 @@ span {
   gap: 50px;
   align-items: flex-start;
   /* justify-content: center; */
+  padding-bottom: 100px;
 }
 summary {
   color: white;
@@ -149,7 +150,10 @@ summary {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  cursor: pointer;
+
 }
+
 p {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
@@ -160,8 +164,31 @@ p {
 a{
   color: #64c6ff;
 }
+.contenedor-inf img{
+  width: 350px;
+  box-shadow:
+    0 0 40px rgba(0, 170, 255, 0.4),
+    0 0 50px rgba(0, 170, 255, 0.2);
+    border-radius: 50%;
+}
+.inf{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: white;
+  padding-left: 15px;
+}
+.contenedor-inf{
+  display: flex;
+  flex-direction: row;
+}
+
 
 @media (max-width: 480px) {
+  .contenedor-inf{
+    flex-direction: column;
+  }
   .proyectos-destacados{
     flex-direction: column;
   }
