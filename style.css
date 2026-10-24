@@ -102,7 +102,7 @@ img { display: block; max-width: 100%; }
 .about-content { display: grid; grid-template-columns: .8fr 1.2fr; align-items: center; gap: 92px; }
 .about-photo { position: relative; width: min(100%, 340px); justify-self: center; }
 .about-photo::before { position: absolute; z-index: 0; inset: 0; width: 100%; height: 100%; transform: scale(1.06); border: 1px solid rgba(163, 240, 197, .38); border-radius: 50%; content: ""; }
-.about-photo img { position: relative; z-index: 1; width: 100%; aspect-ratio: 1; border-radius: 50%; object-fit: contain; object-position: center; margin-left: 17PX; margin-top: 33px; }
+.about-photo img { position: relative; z-index: 1; width: 100%; aspect-ratio: 1; border-radius: 50%; object-fit: contain; object-position: center; }
 .photo-caption { position: absolute; z-index: 2; right: 0; bottom: 24px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 5px; background: var(--surface); color: var(--accent); font-size: 8px; font-weight: 700; letter-spacing: .12em; }
 .about-copy h2 { margin-bottom: 20px; font-size: clamp(31px, 4vw, 42px); line-height: 1.16; }
 .about-copy > p:not(.eyebrow) { max-width: 580px; margin: 0 0 13px; color: var(--muted); font-size: 13px; line-height: 1.8; }
